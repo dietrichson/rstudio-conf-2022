@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Typically defaulting to video-conferencing
 - Only 41.4% of students have access to a computer
 - 84% access the internet primarily through a mobile device
+- Prior experience found that teachers hesitant to use dashboards disconnected from instruction
 
 Any solution we propose must be mobile first.
 
@@ -43,6 +44,11 @@ knitr::include_graphics('./images/feedback_loop.png')
 
 :::
 ::::
+
+## Summary of Approaches
+- Emergency alpha (date)
+- Alpha 2.0 (date)
+- Beta 1.0 (date) 
 
 ## First try: "Emergency alpha"
 
@@ -223,4 +229,8 @@ knitr::include_graphics("images/dash_01.png")
 
 ```{r}
 knitr::include_graphics("images/dash_02.png")
+
+## Lessons Learned 
+- Shiny well positioned for mobile services
+- ??
 ```
