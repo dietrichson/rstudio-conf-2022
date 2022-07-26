@@ -1,0 +1,409 @@
+---
+title: "Chi Square Ecosystem"
+output: beamer_presentation
+date: '2022-05-22'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("chi2-hexes.R")
+```
+
+## Chi Square Ecosystem
+
+```{r}
+hexes()
+```
+
+
+## Mobile
+
+:::: {.columns}
+::: {.column width="60%"}
+- Helps create/maintain a feedback loop for instructors using zoon/teams/meet
+- Requires no institutional buy-in
+- Low barrier to entry 
+:::
+::: {.column width="40%"}
+
+
+```{r}
+hexes("Mobile|Zoo")
+```
+
+:::
+::::
+
+## Mobile - The Feedback Loop
+
+:::: {.columns}
+::: {.column width="60%"}
+The mobile app helps instructors create an effective feedback-loop with their students.
+
+- Ideal for video conference based instruction
+- Also used in hybrid settings
+- Mitigates learning loss
+
+:::
+::: {.column width="40%"}
+
+```{r fig.cap='The Feedback Loop'}
+knitr::include_graphics('./images/feedback_loop.png')
+```
+
+
+:::
+::::
+
+## Mobile: setup
+
+:::: {.columns}
+::: {.column width="50%"}
+```{r out.height="90%"}
+knitr::include_graphics("./images/english_03/X2 Mobile - English (01).png")
+```
+
+:::
+::: {.column width="50%"}
+```{r out.height="90%"}
+knitr::include_graphics("./images/english_03/X2 Mobile - English (09).png")
+```
+
+:::
+::::
+
+## Mobile: Feedback
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Feedback templates are based on star ratings and free text input of *concepts learned* and *concepts for review*
+- The feedback is typically requested immediately after a zoom session
+- The templates have been kept short and to the point, allowing students to provide feedback in two minutes or less
+
+:::
+::: {.column width="50%"}
+```{r out.height="90%"}
+knitr::include_graphics("./images/english_03/X2 Mobile - English (10).png")
+```
+
+:::
+::::
+
+
+## Mobile: Extensions
+:::: {.columns}
+::: {.column width="60%"}
+- Mobile also used in hybrid setups
+- Can connect to Kai for cohort recommendations
+- Connects to Kai and Content repo for Content Recommendations
+:::
+::: {.column width="50%"}
+
+```{r}
+hexes("Zoom|Hybrid|Mobile|KAI|Con")
+```
+
+:::
+::::
+
+
+## Mobile: Cohort Recommendations
+:::: {.columns}
+::: {.column width="50%"}
+```{r, out.height="90%"}
+knitr::include_graphics("./images/cohort_1.jpeg")
+```
+
+:::
+::: {.column width="50%"}
+```{r, out.height="90%"}
+knitr::include_graphics("./images/cohort_2.jpeg")
+```
+
+:::
+::::
+
+## Mobile: Content Recommendations
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Content recommendations are offered when a smaller group of students have shows problems with a particular topic
+- This saves classroom time and reduces strain on the instructor
+- Recommendations can be deployed through mobile or LMS if integrated
+- Relevant assessments can be recommended
+
+:::
+::: {.column width="50%"}
+```{r, out.height="90%"}
+knitr::include_graphics("./images/outputfile_10011.png")
+```
+
+:::
+::::
+
+## Mobile: Email Interface
+
+:::: {.columns}
+::: {.column width="40%"}
+
+- Reporting takes place via email
+- Reduces dashboard fatigue
+- Increases likelihood that information is actually consumed by instructor ([Dietrichson & Whitmer(2018))
+
+:::
+::: {.column width="60%"}
+
+```{r}
+knitr::include_graphics("./images/Kai_email_01.png")
+```
+
+:::
+::::
+
+## Mobile: Email Interface
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- When content and cohort recommendations are avaiable (courtesy of Kai), these too will be pushed through the email interface.
+- Instructors may choose to accept or reject the recommendations (or do nothing). Actions are recorded by Kai for continous personalization and model tuning.
+
+:::
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("./images/kai_email_03.png")
+```
+
+:::
+::::
+
+## Chi Square Learning Analytics
+
+:::: {.columns}
+::: {.column width="50%"}
+
+
+
+- Analyzes LMS data
+- Includes socio-demographic data when available
+- Provides Descriptive, inferential and risk modeling
+- Extensive reporting
+- Plug and Play with Moodle and UDP
+
+:::
+::: {.column width="50%"}
+
+```{r}
+hexes("LMS|LA|UDP")
+```
+
+:::
+::::
+
+## Chi Square Learning Analytics: Descriptives
+:::: {.columns}
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("./images/discussion_analysis_metrics_summary.png")
+```
+
+:::
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("./images/multidimesional_sentiment_analysis.png")
+```
+
+:::
+::::
+
+## Chi Square Learning Analytics: Extensions
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Addition of Kai allows for advanced predictive analytics through continuous model tuning
+- Kai will also provide actionable recommendations and interpretation of results
+- Content repository allows for LMS integration
+- Feedback through mobile enhances quality of predictions
+
+:::
+::: {.column width="50%"}
+
+```{r}
+hexes("LMS|LA|UDP|KAI|Mobile|Con")
+```
+
+:::
+::::
+
+## Chi Square Learning Analytics: Predictive Analytics
+
+:::: {.columns}
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("./images/predictive-overview.png")
+```
+
+:::
+::: {.column width="50%"}
+
+```{r}
+knitr::include_graphics("./images/student-grade-prediction.png")
+```
+
+:::
+::::
+
+## Adaptive Assessment
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Allows instructors and/or institutions to efficiently assess student ability ($\theta$).
+- Reduces cost involved in creation of test items
+- Reduces frustration related to "long-form" assessment
+- Requires a test-item repository
+
+:::
+::: {.column width="50%"}
+```{r}
+hexes("Adaptive|Assessment")
+```
+
+:::
+::::
+
+
+## Adaptive Assessment: Create Test Bank
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- The instructor selects a repository, relevant grade-levels and the initial theta (expressed in standard deviations)
+- Subject areas to be included should also be specified
+:::
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics("./images/adaptive_01.png")
+```
+
+:::
+::::
+
+## Adaptive Assessment: Review and Preview
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- Once the selection has been made and filters applied, the instructor may review all the test items
+- Alternatively they can opt for a preview, in which they will take the assessment offered by the test engine
+
+:::
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics("./images/adaptive_02.png")
+```
+
+:::
+::::
+
+## Adaptive Assessment: Review Results
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- The resulting theta-evolution curve is available for review. 
+- Deploying the assessment is done either through a QR-code/link
+- LTI connection is also possible for LMS deployment
+:::
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics("./images/adaptive_03.png")
+```
+
+:::
+::::
+
+
+## Adaptive Assessment: Extentions
+
+:::: {.columns}
+::: {.column width="50%"}
+
+```{r}
+hexes("Adaptive|Assessment|LMS|KAI|LA")
+```
+
+:::
+::: {.column width="50%"}
+
+```{r}
+hexes("Adaptive|Assessment|KAI|Mobile")
+```
+
+:::
+::::
+
+
+
+
+## Kai the AI
+
+
+:::: {.columns}
+::: {.column width="50%"}
+- AI component which speaks to the other technologies in the ecosystem
+- Uses NLP to parse non-structures input from Mobile
+- Recommends actions to instructor and/or students
+- May be granted high degree of autonomy
+:::
+::: {.column width="50%"}
+
+```{r}
+hexes("LA|KAI|Mobile|Adap")
+```
+
+:::
+::::
+
+## Questions? Contact us
+
+
+:::: {.columns}
+::: {.column width="60%"}
+
+#### Chi Square Laboratories
+234 W 40th St, 
+
+New York, NY 10018
+
+[website](https://www.chi2labs.com)
+
+#### Aleksander (Sasha) Dietrichson, PhD
+
+Chief Science Officer  
+
+sasha@chi2labs.com
+
+#### John Whitmer  
+
+Chief Research Officer  
+
+john@chi2labs.com
+:::
+::: {.column width="40%"}
+
+```{r}
+hexes()
+```
+
+:::
+::::
+
