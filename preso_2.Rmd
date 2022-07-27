@@ -237,6 +237,10 @@ knitr::include_graphics("images/dash_02.png")
 
 ## Contact Info
 
+Website:
+
+- https://www.chi2labs.com
+
 Aleksander Dietrichson
 
 - dietrichson@gmail.com
