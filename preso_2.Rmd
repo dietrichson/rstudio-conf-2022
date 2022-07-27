@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## About us
 
+- Aleksander Dietrichson
+- John Whitmer
+- Chi Square Labs
+
 ## Context
 
 - Argentina goes into lockdown in March 2020
@@ -46,9 +50,9 @@ knitr::include_graphics('./images/feedback_loop.png')
 ::::
 
 ## Summary of Approaches
-- Emergency alpha (date)
-- Alpha 2.0 (date)
-- Beta 1.0 (date) 
+- Emergency alpha (March 2020)
+- Alpha 2.0 (April 2020)
+- Beta 1.0 (August 2021) 
 
 ## First try: "Emergency alpha"
 
@@ -229,8 +233,19 @@ knitr::include_graphics("images/dash_01.png")
 
 ```{r}
 knitr::include_graphics("images/dash_02.png")
-
-## Lessons Learned 
-- Shiny well positioned for mobile services
-- ??
 ```
+
+## Contact Info
+
+Aleksander Dietrichson
+
+- dietrichson@gmail.com
+
+John Whitmer
+
+- jcwhitmer@gmail.com
+
+Repos:
+
+- https://github.com/chi2labs
+- https://github.com/dietrichson
